@@ -1,0 +1,15 @@
+.content-container{
+    color: white;
+    display:flex;
+    align-items: center;
+    margin-left: 200px;
+
+}
+
+.content-container h1{
+    font-size: 64px;
+}
+
+.content-container img{
+    width: 300px;
+}

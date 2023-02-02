@@ -4,10 +4,11 @@ import { Link} from "react-router-dom";
 
 
 function Nav() {
+  
   return (
     <header className="header-container">
       <div>
-        <h1>Bem Vindo ao meu portifólio</h1>
+        <h1 >Bem Vindo ao meu portifólio</h1>
       </div>
 
       <nav className="nav-container">

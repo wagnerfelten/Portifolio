@@ -17,6 +17,7 @@
     font-width: 700;
     font-size: 38px;
     color: white;
+    animation: anima 2s;
 }
 
 .nav-container{
@@ -40,6 +41,22 @@
     
 }
 
-@keyframes h1Animation {
-    
+@keyframes anima {
+    0% {
+        left: -300px;
+    }
+    40% {
+        left: -300px;
+    }
+    50% {
+        left: 0px;
+        width: 100%;
+    }
+    90% {
+        left: 0px;
+        width: 100%;
+    }
+    100% {
+        left: -300px;
+    }
 }
