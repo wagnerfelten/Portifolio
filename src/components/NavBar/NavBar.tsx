@@ -8,7 +8,7 @@ function Nav() {
   return (
     <header className="header-container">
       <div>
-        <h1 >Bem Vindo ao meu portifólio</h1>
+        <h1 >Welcome to my portfolio</h1>
       </div>
 
       <nav className="nav-container">

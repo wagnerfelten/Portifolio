@@ -1,0 +1,63 @@
+
+.home-container{
+    height: 900px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content p {
+    margin-left: 100px;
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+
+}
+
+.content a{
+    width: 150px;
+    height: 30px;
+    
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 100px;
+
+    font-weight: 700;
+    font-size: 16px;
+
+    border: 2px solid rgb(27, 122, 177);
+    border-radius: 8px;
+    background-color: aquamarine;
+
+}
+
+.content a:hover{
+    background-color: rgb(117, 219, 185);
+    color: #070606;
+}
+
+.home-container img{
+    width: 300px;
+    height: 400px;
+    margin-right: 200px;
+
+    animation: imgPersonIcon 3s infinite;
+}
+
+@keyframes imgPersonIcon{
+    0%{
+        margin-bottom: 30px;
+    }
+    25%{
+        margin-top: 30px; 
+    }
+}
+
