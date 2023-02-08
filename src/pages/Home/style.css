@@ -40,7 +40,7 @@
 }
 
 .content a:hover{
-    background-color: rgb(117, 219, 185);
+    background-color: rgb(245, 23, 15);
     color: #070606;
 }
 
@@ -50,6 +50,15 @@
     margin-right: 200px;
 
     animation: imgPersonIcon 3s infinite;
+}
+
+.animationName{
+    color: aliceblue;
+    text-align: left;
+
+    font-size: 28px;
+
+    margin-left: 100px;
 }
 
 @keyframes imgPersonIcon{
