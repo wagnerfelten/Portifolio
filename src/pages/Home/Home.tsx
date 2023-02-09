@@ -12,7 +12,6 @@ function Home() {
             options={{
               strings: ["This will be typed!"],
               loop: true,
-              loopDelay: 20,
               waitUntilVisible: true,
             }}>
             <h3>Wagner Felten Rodrigues</h3>

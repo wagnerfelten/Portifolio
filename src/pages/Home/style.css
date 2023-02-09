@@ -1,6 +1,6 @@
 
 .home-container{
-    height: 900px;
+    height: 850px;
 
     display: flex;
     align-items: center;
@@ -23,9 +23,11 @@
 .content a{
     width: 150px;
     height: 30px;
-    
-    text-align: center;
     padding: 10px;
+    
+    display: flex;
+    align-items: center;
+    
     text-decoration: none;
     margin-top: 25px;
     margin-left: 100px;
@@ -33,14 +35,15 @@
     font-weight: 700;
     font-size: 16px;
 
-    border: 2px solid rgb(27, 122, 177);
+    border: 2px solid rgb(99, 10, 3);
     border-radius: 8px;
-    background-color: aquamarine;
-
+    background-color: rgb(240, 0, 0);
+    color: aliceblue;
 }
 
 .content a:hover{
-    background-color: rgb(245, 23, 15);
+    
+    background-color: rgb(189, 45, 40);
     color: #070606;
 }
 
@@ -55,10 +58,12 @@
 .animationName{
     color: aliceblue;
     text-align: left;
-
+    width: 480px;
+    height: 58px;
     font-size: 28px;
 
     margin-left: 100px;
+    margin-bottom: 62px;
 }
 
 @keyframes imgPersonIcon{
