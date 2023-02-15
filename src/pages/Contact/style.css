@@ -1,0 +1,32 @@
+.main-container {
+  width: 700px;
+  height: 800px;
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.main-container img {
+  width: 60px;
+  height: 60px;
+
+  border-radius: 30px;
+  background-color: beige;
+}
+
+.main-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-container h4{
+    color: aliceblue;
+    text-align: center;
+
+    margin-top: 10px;
+}
+
