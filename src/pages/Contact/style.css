@@ -21,6 +21,7 @@
 .main-container a{
     text-decoration: none;
     color: white;
+    
 }
 
 .main-container h4{
@@ -30,3 +31,7 @@
     margin-top: 10px;
 }
 
+.main-container h4:hover{
+    color: aqua;
+    cursor: pointer;
+}

@@ -1,5 +1,5 @@
 .header-container{
-    width: 100%;
+   
     height: 48px;
     background-color: #1f1f1f;
    
@@ -14,7 +14,7 @@
 
 .header-container h1{
     font-family: "Rubik";
-    font-width: 700;
+    width: 700;
     font-size: 38px;
     color: white;
     animation: anima 2s;

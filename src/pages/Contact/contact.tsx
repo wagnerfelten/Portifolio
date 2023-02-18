@@ -24,10 +24,12 @@ const Contact = () => {
         <h4> whast</h4>
         </div>
 
+        <Link to="https://mail.google.com/mail/u/0/#inbox">
         <div className="email">
         <img src={email} alt="email"/>
         <h4>E-mail</h4>
         </div>
+        </Link>
 
       </main>
     )
