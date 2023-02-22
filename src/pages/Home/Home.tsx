@@ -6,7 +6,7 @@ import "./style.css";
 function Home() {
   return (
     <div className="home-container">
-      <div className="content">
+      
         <div className="animationName">
           <TypeIt
             options={{
@@ -17,7 +17,7 @@ function Home() {
             <h3>Wagner Felten Rodrigues</h3>
           </TypeIt>
         </div>
-
+        <div className="content">
         <p>
           I started programming 1 year and a half ago with HTML and CSS. <br />
           Javascript currently studying 6 months just with React. I study at
@@ -27,7 +27,7 @@ function Home() {
 
         <Link to={""}>Academic Training</Link>
       </div>
-      <div>
+      <div className="myAnimation">
         <img src={imgHome} alt="imgDeMim" />
       </div>
     </div>

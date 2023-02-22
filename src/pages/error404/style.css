@@ -1,15 +1,43 @@
 .content-container{
     color: white;
-    display:flex;
-    align-items: center;
+    display: flex;
+  
+    flex-direction: column;
     margin-left: 200px;
-
 }
 
-.content-container h1{
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.content h1{
     font-size: 64px;
+
 }
 
-.content-container img{
+.content img{
     width: 300px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 40px;
+    margin-left: 100px;
+    
+    background-color: aqua;
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+}
+
+.btn a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
 }

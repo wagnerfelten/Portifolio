@@ -1,77 +1,83 @@
-
-.home-container{
-    height: 850px;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.home-container {
+  height: 950px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-.content{
-    display: flex;
-    flex-direction: column;
+.content {
+  width: 770px;
+  height: 400px;
+  margin-top: 64px;
+margin-left: -100px;
+  
 }
 
 .content p {
-    margin-left: 100px;
-    color: white;
-    font-size: 24px;
-    line-height: 30px;
-
+  margin-top: 68px;
+  color: white;
+  font-size: 24px;
+  line-height: 30px;
 }
 
-.content a{
-    width: 150px;
-    height: 30px;
-    padding: 10px;
-    
-    display: flex;
-    align-items: center;
-    
-    text-decoration: none;
-    margin-top: 25px;
-    margin-left: 100px;
+.content a {
+  width: 250px;
+  height: 50px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
 
-    font-weight: 700;
-    font-size: 16px;
+  text-decoration: none;
+  margin-top: 25px;
+  margin-left: 100px;
 
-    border: 2px solid rgb(99, 10, 3);
-    border-radius: 8px;
-    background-color: rgb(240, 0, 0);
-    color: aliceblue;
+  font-weight: 700;
+  font-size: 16px;
+
+  border: 2px solid rgb(99, 10, 3);
+  border-radius: 8px;
+  background-color: rgb(240, 0, 0);
+  color: aliceblue;
 }
 
-.content a:hover{
-    
-    background-color: rgb(189, 45, 40);
-    color: #070606;
+.content a:hover {
+  background-color: rgb(189, 45, 40);
+  color: #070606;
 }
 
-.home-container img{
-    width: 300px;
-    height: 400px;
-    margin-right: 200px;
-
-    animation: imgPersonIcon 3s infinite;
+.myAnimation img {
+  width: 300px;
+  height: 400px;
+  margin-right: 200px;
+  margin: 0 auto;
+  margin-top: -400px;
+  animation: imgPersonIcon 3s;
+  position: fixed;
 }
 
-.animationName{
-    color: aliceblue;
-    text-align: left;
-    width: 480px;
-    height: 58px;
-    font-size: 28px;
+.animationName {
+  color: aliceblue;
+  text-align: left;
+  width: 480px;
+  height: 58px;
+  font-size: 28px;
 
-    margin-left: 100px;
-    margin-bottom: 62px;
+  margin-top: 18px;
+  margin-bottom: 24px;
+  margin-left: -350px;
+
+  position: absolute;
 }
 
-@keyframes imgPersonIcon{
-    0%{
-        margin-bottom: 30px;
-    }
-    25%{
-        margin-top: 30px; 
-    }
+@keyframes imgPersonIcon {
+  0% {
+    margin: 0px;
+    visibility: 0;
+  }
+  100%{
+    margin-bottom: 150px;
+  }
 }
-
