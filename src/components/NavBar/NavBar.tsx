@@ -1,5 +1,5 @@
 import "../NavBar/style.css";
-
+import wfr from "../../assets/img/logo-wfr.svg";
 import { Link} from "react-router-dom";
 
 
@@ -8,7 +8,7 @@ function Nav() {
   return (
     <header className="header-container">
       <div>
-        <h1 >Welcome to my portfolio</h1>
+        <img src={wfr} alt="" />
       </div>
 
       <nav className="nav-container">

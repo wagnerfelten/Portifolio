@@ -50,10 +50,9 @@ margin-left: -100px;
 
 .myAnimation img {
   width: 300px;
-  height: 400px;
-  margin-right: 200px;
+  height: 300px;
   margin: 0 auto;
-  margin-top: -400px;
+  margin-top: -500px;
   animation: imgPersonIcon 3s;
   position: fixed;
 }
